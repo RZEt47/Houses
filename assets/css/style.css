@@ -1,0 +1,822 @@
+.html {
+    font-size: 16px;
+}
+
+.body {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -osx-font-smoothing: grayscale;
+    font-family: 'Poiret One', cursive;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+
+    background-color: #000;
+}
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    height: 100vh;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+
+
+
+
+
+
+/*===================== Inner ========================*/
+
+.inner {
+    width: 100%;
+    height: auto;
+
+    background: url("../img/inner__bg.jpg") no-repeat center / cover;
+}
+
+.header {
+    width: 100%;
+    padding: 58px 170px 0 71px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header.header--dark {
+    background-color: rgba(255, 195, 55, 0.3);
+}
+
+.inner__title {
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 29px;
+
+    color: rgb(255, 195, 55);
+}
+
+.inner__title a {
+    text-decoration: none;
+    color: #ffc337;
+}
+
+.nav {
+    max-width: 255px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav__item:hover {
+    text-decoration: underline;
+}
+
+.nav__item.active {
+    color: #ffc337;
+}
+
+.inner__info {
+    max-width: 400px;
+    width: 100%;
+    padding: 280px 10px 260px 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.inner__text {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+
+    color: #fff;
+}
+
+.inner__subtext {
+    padding-top: 23px;
+
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #fff;
+}
+
+.inner__btn {
+    padding-top: 23px;
+}
+
+.btn {
+    padding: 7px 10px;
+    max-width: 174px;
+    width: 100%;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #000;
+    background-color: #ffc337;
+    border-radius: 35px 35px 35px 35px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/*==================== About Us ========================*/
+
+.container__about {
+    padding: 0 15px;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+
+    background-color: #020710;
+}
+
+.about__item {
+    max-width: 483px;
+    width: 100%;
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about__title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+
+    color: #ffc337;
+}
+
+.about__text {
+    padding-top: 15px;
+
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #fff;
+}
+
+.about__title-sub {
+    padding-top: 55px;
+
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+    font-size: 23px;
+
+    color: #fff;
+}
+
+.hr--padding {
+    padding-bottom: 50px;
+}
+
+.about__hr {
+    border-color: #6e6e6e;
+}
+
+.about__text--yellow {
+    padding-top: 60px;
+    padding-left: 115px;
+    padding-bottom: 75px;
+
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #ffc337;
+
+    position: relative;
+}
+
+.about__trees {
+    position: absolute;
+    top: 60px;
+    right: 380px;
+    z-index: 1;
+}
+
+.about__house {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+/*==================== Present ========================*/
+
+.present {
+    width: 100%;
+    height: auto;
+
+    background: url("../img/present_bg.jpg");
+}
+
+.present__items {
+    padding: 80px 20px 85px 20px;
+}
+
+.present__item {
+    padding-top: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.present__item--text {
+    max-width: 517px;
+    width: 100%;
+}
+
+.present__item--title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+
+    color: #ffc337;
+}
+
+.present__item--text {
+    padding-top: 27px;
+
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #fff;
+}
+
+.present__btn {
+    padding-top: 27px;
+}
+
+.present__item--img--inner {
+    max-width: 717px;
+    width: 100%;
+    height: 365px;
+
+    background: url("../img/present/1.png") no-repeat center / cover;
+}
+
+.present__item--img--info {
+    padding-top: 36px;
+    padding-left: 36px;
+}
+
+.present__title--img {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    font-size: 69px;
+
+    color: #fff;
+}
+
+.present__metres--img {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+
+    color: #ffc337;
+}
+
+.sup {
+    font-size: 16px;
+}
+
+.present__bathroom--img,.present__bed--img {
+    padding-top: 20px;
+    padding-left: 45px;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+
+    color: #fff;
+
+    position: relative;
+}
+
+.present__bathroom--img:before {
+    content: url("../img/present/bath.png");
+
+    position: absolute;
+    top: 12px;
+    left: 0;
+    z-index: 1;
+}
+
+
+.present__bed--img:before {
+    content: url("../img/present/bed.png");
+
+    position: absolute;
+    top: 12px;
+    left: 0;
+    z-index: 1;
+}
+
+.present__btn--img {
+    padding-top: 35px;
+}
+
+.btn--img {
+    padding: 7px 10px;
+    max-width: 113px;
+    width: 100%;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+
+    color: #fff;
+    background: none;
+    border-radius: 35px 35px 35px 35px;
+    border: 2px solid #fff;
+    outline: none;
+    cursor: pointer;
+
+    transition: background-color 0.2s linear;
+}
+
+.btn--img:hover {
+    background-color: #ffc337;
+    border: 0;
+    outline: none;
+}
+
+.present__item--img {
+    max-width: 415px;
+    width: 100%;
+    height: 365px;
+
+    background: url("../img/present/2.png") no-repeat center / cover;
+}
+
+.item2 {
+    max-width: 415px;
+    width: 100%;
+    height: 365px;
+
+    background: url("../img/present/3.png") no-repeat center / cover;
+}
+
+.item3 {
+    max-width: 415px;
+    width: 100%;
+    height: 365px;
+
+    background: url("../img/present/4.png") no-repeat center / cover;
+}
+
+
+
+
+
+
+
+
+
+/*==================== Contacts ========================*/
+
+.contacts {
+    width: 100%;
+    height: auto;
+
+    background: url('../img/contacts_bg.jpg') no-repeat center / cover;
+}
+
+.contacts__title {
+    padding-top: 80px;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+
+    color: #ffc337;
+}
+
+.contacts__subtitle {
+    padding-top: 30px;
+    padding-bottom: 25px;
+
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font: 16px;
+
+    color: #fff;
+}
+
+.contacts__items {
+    padding: 0 20px 125px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contacts__item--info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contacts__item--address {
+    padding-left: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item__address {
+    padding-bottom: 35px;
+
+    position: relative;
+}
+
+.item__address:last-child {
+    padding-bottom: 0;
+}
+
+.item__address a {
+    text-decoration: none;
+    color: #b2afaf;
+}
+
+.item__address a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.location::before {
+    content: url("../img/contacts/1.png");
+
+    position: absolute;
+    top: -10px;
+    left: -30px;
+    z-index: 1;
+}
+
+.phone::before {
+    content: url("../img/contacts/2.png");
+
+    position: absolute;
+    top: -10px;
+    left: -33px;
+    z-index: 1;
+}
+
+.address::before {
+    content: url("../img/contacts/3.png");
+
+    position: absolute;
+    top: -10px;
+    left: -33px;
+    z-index: 1;
+}
+
+.border {
+    padding: 30px 48px;
+    border-radius: 40px;
+
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.contacts__item--form {
+    max-width: 340px;
+    width: 100%;
+    height: auto;
+}
+
+.contacts__item--subtitle {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+
+    color: #fff;
+    text-align: center;
+}
+
+.form__contacts {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.form__contacts--input {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+
+    font-weight: 400;
+    font-size: 16px;
+
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    color: #000;
+}
+
+.form__contacts--input::placeholder {
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn__contacts {
+    max-width: 80px;
+    width: 100%;
+    padding: 5px 7px;
+    margin: 0 auto;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+
+    color: #000;
+    background-color: #ffc337;
+    border-radius: 35px 35px 35px 35px;
+    border: 0;
+    outline: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=================== Footer =======================*/
+
+.footer {
+    width: 100%;
+    height: auto;
+
+    background-color: #02070f;
+}
+
+
+.footer__title {
+    padding-top: 15px;
+
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 29px;
+
+    color: #fff;
+    text-align: center;
+}
+
+.footer__title--span {
+    color: #ffc337;
+}
+
+.footer__subtitle {
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 12px;
+
+    color: #fff;
+    text-align: center;
+}
+
+/*=====================Media*===========================*/
+
+
+@media (max-width: 1200px) {
+
+    /*Intro*/
+
+    .inner__info {
+        margin: 0 auto;
+    }
+
+
+    /*About*/
+
+    .about__item {
+        margin: 0 auto;
+    }
+
+    .about__house {
+        display: none;
+    }
+
+    /*Present*/
+
+    .present__items {
+        padding-top: 0;
+        padding-bottom: 25px;
+    }
+
+    .present__item {
+        padding-top: 20px;
+
+        justify-content: center;
+    }
+
+    .present__item--img {
+        margin: 20px;
+
+        font-size: 35px;
+    }
+
+    .present__metres--img {
+        font-size: 20px;
+    }
+
+    .present__btn {
+        padding-bottom: 35px;
+    }
+
+    /*Contacts*/
+
+    .contacts__title, .contacts__subtitle {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 990px) {
+
+    .header {
+        padding: 58px 30px 0 71px;
+    }
+
+    .inner__info {
+        padding: 250px 10px 158px 10px;
+    }
+
+    /*Contacts*/
+
+    .contacts__title {
+        padding-top: 35px;
+    }
+
+    .contacts__subtitle {
+        padding-bottom: 40px;
+    }
+
+    .contacts__items {
+        padding-bottom: 50px;
+
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .contacts__item:last-child {
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+
+     /*Present*/
+
+    .present__item--img--info {
+        padding-top: 65px;
+    }
+
+}
+
+
+@media (max-width: 590px) {
+
+    /*Intro*/
+
+    .header {
+        padding: 20px 0 0 0;
+        margin: 0 auto;
+
+        flex-direction: column;
+    }
+
+    .inner__title {
+        padding-bottom: 10px;
+    }
+
+    .inner__info {
+        padding: 158px 10px 50px 10px;
+    }
+
+    .inner__btn {
+        margin: 0 auto;
+
+        padding-top: 100px;
+    }
+
+    /*Contacts*/
+
+    .contacts__item--info {
+        justify-content: center;
+    }
+
+    .contacts__item--address{
+        padding-top: 35px;
+        padding-left: 60px;
+    }
+
+
+    /*About*/
+
+    .about__trees {
+        display: none;
+    }
+
+    .about__text--yellow {
+        padding-left: 0;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    /*Present*/
+
+    .present__item--text {
+        text-align: center;
+    }
+
+    .present__title--img {
+        padding-bottom: 20px;
+
+        font-size: 40px;
+    }
+
+
+}
+
+
+@media (max-width: 414px) {
+
+    /*Intro*/
+
+    .nav__item {
+        padding-right: 10px;
+    }
+
+}
+
